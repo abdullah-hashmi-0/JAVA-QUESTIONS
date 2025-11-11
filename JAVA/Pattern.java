@@ -220,18 +220,6 @@ public class Pattern {
             }
             System.out.println();
         }
-
-        System.out.println("15. Alphabet Triangle");
-
-        char last = 'E'; 
-        char ch = 'A'; 
-
-        for (char i = 'A'; i <= last; i++) {
-            for (char j = 'A'; j <= i; j++) {
-                System.out.print(j + " ");
-            }
-            System.out.println();
-        }
             
         sc.close();
     }
