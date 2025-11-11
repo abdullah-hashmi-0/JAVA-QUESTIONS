@@ -50,7 +50,7 @@ public class Arrays {
             }
         }
 
-
+// This is a random comment
 
         sc.close();
 
