@@ -1,14 +1,15 @@
-public class DataLossConversion {
+import java.util.*;
+
+public class Main {
     public static void main(String[] args) {
-        long largeLong = 40000L;
-        System.out.println("Original long value: " + largeLong);
+        Scanner sc = new Scanner(System.in);
 
-        short myShort = (short) largeLong;
-        System.out.println("Converted short value: " + myShort);
+        String fullName;
 
-        long safeLong = 10000L;
-        short safeShort = (short) safeLong;
-        System.out.println("\nOriginal safe long value: " + safeLong);
-        System.out.println("Converted safe short value: " + safeShort);
+        fullName = sc.nextLine();
+
+        System.out.println(fullName + "\n" + fullName.length());
+        
+        sc.close();
     }
 }
